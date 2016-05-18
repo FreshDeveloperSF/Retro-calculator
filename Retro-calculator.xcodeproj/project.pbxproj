@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0022E81CED24B700BFC5CF /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC0022E71CED24B700BFC5CF /* Minecraft.ttf */; };
 		EC7691271CEBBF68001548EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7691261CEBBF68001548EE /* AppDelegate.swift */; };
 		EC7691291CEBBF68001548EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7691281CEBBF68001548EE /* ViewController.swift */; };
 		EC76912C1CEBBF68001548EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC76912A1CEBBF68001548EE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC0022E71CED24B700BFC5CF /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		EC7691231CEBBF68001548EE /* Retro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7691261CEBBF68001548EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7691281CEBBF68001548EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		EC7691251CEBBF68001548EE /* Retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				EC0022E71CED24B700BFC5CF /* Minecraft.ttf */,
 				EC7691261CEBBF68001548EE /* AppDelegate.swift */,
 				EC7691281CEBBF68001548EE /* ViewController.swift */,
 				EC76912A1CEBBF68001548EE /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				EC7691311CEBBF68001548EE /* LaunchScreen.storyboard in Resources */,
 				EC76912E1CEBBF68001548EE /* Assets.xcassets in Resources */,
+				EC0022E81CED24B700BFC5CF /* Minecraft.ttf in Resources */,
 				EC76912C1CEBBF68001548EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				EC76914D1CEBBF69001548EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC76914E1CEBBF69001548EE /* Build configuration list for PBXNativeTarget "Retro-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				EC7691501CEBBF69001548EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7691511CEBBF69001548EE /* Build configuration list for PBXNativeTarget "Retro-calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				EC7691531CEBBF69001548EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
