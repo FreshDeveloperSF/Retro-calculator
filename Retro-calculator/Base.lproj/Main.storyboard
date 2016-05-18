@@ -204,7 +204,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5l7-UK-KQE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5l7-UK-KQE">
                                 <rect key="frame" x="210" y="135" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="5zD-Ak-vV1"/>
@@ -223,9 +223,11 @@
                             <constraint firstItem="yVo-qK-oMV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PWB-ge-7fT"/>
                             <constraint firstItem="QtI-6S-tk2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UWq-3P-idL"/>
                             <constraint firstItem="m96-85-bWe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cjh-cz-XbG"/>
+                            <constraint firstItem="5l7-UK-KQE" firstAttribute="top" secondItem="yVo-qK-oMV" secondAttribute="top" constant="18" id="h1t-Xg-fRz"/>
                             <constraint firstItem="yVo-qK-oMV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kIp-bI-p1R"/>
                             <constraint firstItem="ged-6I-1vc" firstAttribute="centerY" secondItem="yVo-qK-oMV" secondAttribute="centerY" constant="35" id="mTm-8h-S1l"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m96-85-bWe" secondAttribute="bottom" id="mfG-GM-ULJ"/>
+                            <constraint firstItem="yVo-qK-oMV" firstAttribute="trailing" secondItem="5l7-UK-KQE" secondAttribute="trailing" constant="18" id="pCj-XS-ffu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QtI-6S-tk2" secondAttribute="bottom" id="ryd-ok-sik"/>
                         </constraints>
                     </view>
